@@ -16,7 +16,7 @@ export function Pricing() {
   return (
     <section id="harga" className="bg-surface-container-lowest py-24 px-6 md:px-16">
       <div className="max-w-6xl mx-auto">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -26,7 +26,7 @@ export function Pricing() {
         </motion.div>
 
         {/* Storytelling Section */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -47,7 +47,7 @@ export function Pricing() {
         </motion.div>
 
         {/* Comparison Table */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -82,7 +82,7 @@ export function Pricing() {
         </motion.div>
 
         {/* Savings Calculator (PAS Framework) */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
@@ -96,8 +96,8 @@ export function Pricing() {
             <div className="space-y-6">
               <div>
                 <label className="block text-xs uppercase tracking-widest text-white/50 mb-2 font-bold">Rata-rata Penjualan Bulanan (Rp)</label>
-                <input 
-                  className="w-full bg-surface-container-lowest border-2 border-white/10 focus:border-red-500 outline-none px-4 py-3 text-2xl font-bold text-white transition-all" 
+                <input
+                  className="w-full bg-surface-container-lowest border-2 border-white/10 focus:border-red-500 outline-none px-4 py-3 text-2xl font-bold text-white transition-all"
                   type="number"
                   value={revenue}
                   onChange={(e) => setRevenue(Number(e.target.value))}
@@ -106,7 +106,7 @@ export function Pricing() {
               <div>
                 <label className="block text-xs uppercase tracking-widest text-white/50 mb-2 font-bold">Estimasi Potongan Marketplace (%)</label>
                 <div className="relative">
-                  <select 
+                  <select
                     className="w-full bg-surface-container-lowest border-2 border-white/10 focus:border-red-500 outline-none px-4 py-3 text-xl font-bold text-white appearance-none cursor-pointer"
                     value={marketplaceFee}
                     onChange={(e) => setMarketplaceFee(Number(e.target.value))}
@@ -126,9 +126,9 @@ export function Pricing() {
             <div className="text-4xl md:text-5xl font-headline font-black text-white mb-6 tracking-tighter">
               Rp {wastedMoney.toLocaleString('id-ID')}
             </div>
-            
+
             <div className="w-full h-px bg-white/10 my-6"></div>
-            
+
             <span className="block text-xs uppercase tracking-widest text-primary-fixed mb-2 font-bold">SOLVE: Yang Bisa Anda Hemat dengan Website Sendiri</span>
             <div className="text-4xl md:text-5xl font-headline font-black text-primary-fixed mb-4 tracking-tighter">
               Rp {savings.toLocaleString('id-ID')}
@@ -142,17 +142,16 @@ export function Pricing() {
         {/* Tiers */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {pricingTiers.map((tier, i) => (
-            <motion.div 
+            <motion.div
               key={tier.id}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.15 }}
-              className={`p-8 border-2 flex flex-col h-full relative transition-all ${
-                tier.isPopular 
-                  ? 'border-primary-fixed bg-surface-container-low shadow-[0_0_40px_rgba(193,244,0,0.1)]' 
+              className={`p-8 border-2 flex flex-col h-full relative transition-all ${tier.isPopular
+                  ? 'border-primary-fixed bg-surface-container-low shadow-[0_0_40px_rgba(193,244,0,0.1)]'
                   : 'border-white/10 bg-surface-container-low hover:border-white/30'
-              }`}
+                }`}
             >
               {tier.isPopular && (
                 <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-primary-fixed text-on-primary-fixed text-[10px] font-black px-6 py-1.5 uppercase tracking-widest">
@@ -171,16 +170,15 @@ export function Pricing() {
                   </li>
                 ))}
               </ul>
-              <a 
+              <a
                 href="https://wa.me/6283167987800?text=Halo%20astrina%20saya%20tertarik%20dengan%20website%20%22Urban%20Wear%22%20atau%20saya%20tertarik%20membuat%20template%20seperti%20demo4.astmay.space%20bisakah%20saya%20dapat%20free%20konsultasi%20%3F" target="_blank" rel="noopener noreferrer"
-                className={`w-full py-4 font-bold uppercase tracking-widest text-xs transition-all block text-center ${
-                  tier.isPopular 
-                    ? 'bg-primary-fixed text-on-primary-fixed hover:bg-white shadow-lg' 
+                className={`w-full py-4 font-bold uppercase tracking-widest text-xs transition-all block text-center ${tier.isPopular
+                    ? 'bg-primary-fixed text-on-primary-fixed hover:bg-white shadow-lg'
                     : 'border-2 border-white text-white hover:bg-white hover:text-black'
-                }`}
+                  }`}
               >
                 {tier.cta}
-              </a>>
+              </a>
             </motion.div>
           ))}
         </div>
