@@ -1,0 +1,10 @@
+# Urban Wear — Demo Portfolio oleh Astrina Maysaroh
+
+> Demo website toko online fashion streetwear. Dibuat oleh Astrina Maysaroh.
+
+- Kategori: Toko Online / E-Commerce Fashion
+- Live: https://demo4.astmay.space
+- Dibuat oleh: Astrina Maysaroh (https://astmay.space)
+
+Untuk informasi lengkap tentang layanan, harga, dan portfolio lainnya, kunjungi:
+https://astmay.space/llms.txt
