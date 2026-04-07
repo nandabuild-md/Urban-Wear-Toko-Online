@@ -171,7 +171,7 @@ export function Pricing() {
                 ))}
               </ul>
               <a
-                href="https://wa.me/6283167987800?text=Halo%20astrina%20saya%20tertarik%20dengan%20website%20%22Urban%20Wear%22%20atau%20saya%20tertarik%20membuat%20template%20seperti%20demo4.astmay.space%20bisakah%20saya%20dapat%20free%20konsultasi%20%3F" target="_blank" rel="noopener noreferrer"
+                href="https://wa.me/6283167987800?text=Halo%20astrina%20saya%20tertarik%20membuat%20website%20toko%20online%20seperti%20Urban%20Wear%20di%20demo4.astmay.space%20bisakah%20saya%20dapat%20free%20konsultasi%20%3F" target="_blank" rel="noopener noreferrer"
                 className={`w-full py-4 font-bold uppercase tracking-widest text-xs transition-all block text-center ${tier.isPopular
                     ? 'bg-primary-fixed text-on-primary-fixed hover:bg-white shadow-lg'
                     : 'border-2 border-white text-white hover:bg-white hover:text-black'

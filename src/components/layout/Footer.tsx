@@ -14,7 +14,7 @@ export function Footer() {
           <span className="font-body text-[10px] uppercase tracking-[0.1em] text-white/50">Ikuti Kami</span>
           <a className="text-white/50 hover:text-primary-fixed transition-colors font-headline font-bold text-xl uppercase" href="#">Instagram</a>
           <a className="text-white/50 hover:text-primary-fixed transition-colors font-headline font-bold text-xl uppercase" href="#">TikTok</a>
-          <a className="text-white/50 hover:text-primary-fixed transition-colors font-headline font-bold text-xl uppercase" href="https://wa.me/6283167987800?text=Halo%20astrina%20saya%20tertarik%20dengan%20website%20%22Urban%20Wear%22%20atau%20saya%20tertarik%20membuat%20template%20seperti%20demo4.astmay.space%20bisakah%20saya%20dapat%20free%20konsultasi%20%3F" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+          <a className="text-white/50 hover:text-primary-fixed transition-colors font-headline font-bold text-xl uppercase" href="https://wa.me/6283167987800?text=Halo%20astrina%20saya%20tertarik%20membuat%20website%20toko%20online%20seperti%20Urban%20Wear%20di%20demo4.astmay.space%20bisakah%20saya%20dapat%20free%20konsultasi%20%3F" target="_blank" rel="noopener noreferrer">WhatsApp</a>
         </div>
         <div className="flex flex-col gap-4">
           <span className="font-body text-[10px] uppercase tracking-[0.1em] text-white/50">Informasi</span>
