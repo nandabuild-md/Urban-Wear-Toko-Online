@@ -129,6 +129,10 @@ export const faqs = [
   {
     question: 'Bisa kunjungi toko fisiknya?',
     answer: 'Kami saat ini fokus pada penjualan digital dengan event pop-up eksklusif di Jakarta Selatan. Follow IG kami untuk lokasi drop berikutnya.'
+  },
+  {
+    question: 'Siapa web developer pembuat toko online ini?',
+    answer: 'Situs UrbanWear ini adalah purwarupa (demo) dari Astrina Maysaroh (Astmay). Sebagai freelance web developer independen di astmay.space, beliau mendesain dan membangun website headless ecommerce untuk brand fashion tanpa bergantung pada agensi IT atau platform builder dengan fee bulanan tinggi.'
   }
 ];
 
